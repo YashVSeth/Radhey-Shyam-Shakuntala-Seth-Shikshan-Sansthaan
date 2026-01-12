@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radhey Shyam Shakuntala Seth Shikshan Sansthaan</title>
     <link rel="stylesheet" href="login.css">
+   
 </head>
 
 <body>
@@ -13,25 +14,31 @@
         <form action="/server">
             <div class="main">
                 <div class="logo-part">
-                <h1>Radhey Shyam Shakuntala Seth Shikshan Sansthaan</h1>
-                <img src="images.jpg" alt="images">
+                    <img src="logo.png" alt="images" id="logo">
+                </div>
+                <div class="login">
+                    <h1>Radhey Shyam Shakuntala Seth Shikshan Sansthaan</h1>
+                    <hr>
+                    <h3>Admistrater Login</h3>
+                    <div class="userspass">
+                        <div class="name"><label for="username">User Id
+                        
+                    </label>
+                        <input required type="text" id="username" placeholder="Enter User Id" name="query">
+                    </div>
+                    <div><label for="password">Password</label>
+                        <input required type="password" id="password" placeholder="Enter Password">
+                    </div>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" id="submit">Submit</button>
+                        <br>
+                        <button type="reset" id="reset">Reset</button>
+                    </div>
+                </div>
             </div>
-            <div class="login">
-                <div class="name"><label for="username">User Id</label>
-                <input type="text" id="username" placeholder="Enter User Id" name="query">
-            </div>
-            <div><label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter Password">
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-                <br>
-                <button type="reset">Reset</button>
-            </div>
-            </div>
-            
-            </div>
-            
+
 
         </form>
     </div>

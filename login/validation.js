@@ -31,7 +31,7 @@ if (errors.length > 0) {
 error_message.innerText = errors.join(". ");
 } else {
 // Login success → go to home page
-window.location.href = "GitHub\Radhey-Shyam-Shakuntala-Seth-Shikshan-Sansthaan\Sidebar\main.html";
+window.location.href = "C:\Users\yash2\Documents\GitHub\Radhey-Shyam-Shakuntala-Seth-Shikshan-Sansthaan\Sidebar\main.html";
 }
 });
 

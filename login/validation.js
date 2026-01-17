@@ -25,7 +25,7 @@ form.addEventListener('submit', function (e) {
   // Login check
   if (id === 'yash' && password === '9170') {
     // ✅ Redirect after successful login
-    window.location.href = '/Radhey-Shyam-Shakuntala-Seth-Shikshan-Sansthaan/sidebar/main.html'
+    window.location.href ='..sidebar/main.html'
   } else {
     error_message.innerText = 'Invalid ID or Password'
     id_input.parentElement.classList.add('incorrect')
